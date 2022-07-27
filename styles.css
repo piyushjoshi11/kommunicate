@@ -4,25 +4,27 @@
 } */
 
 .heading{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 40px;
     
 }
 
 .automate{
     color: black ;
+    font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
 }
 
 .store{
     color:#5553B7;
+    font-size: larger;
     font-family: sans-serif;
     font-weight: 900;
 }
 .buttons{
     margin-left: 30px;
-  
+    margin-top: -40px;
     
 
 }
@@ -41,7 +43,7 @@
     color: white;
     text-align: center;
     border-radius: 25px;
-    margin: 15px;
+    margin: 0px;
     height: 36px;
     background-color: #2DD35C;
     border: 0;
@@ -67,11 +69,29 @@
     border-radius: 15px 500px 30px 5px;
     display: grid;
     border:#2DD35C solid;
-  
-    
-    margin-top: 200px;
+    position:absolute;
+    left:0;
+    z-index: -2;
+    margin-top: 100px;
     margin-left: 0px;
+    padding: 20px;
+    width: 800px;
+    height: 250px;
+    
+  }
+  #rightwala{
+    float:right;
+    border-radius: 400px 15px 30px 5px;
+    display: grid; 
+       z-index: -1;
+    /* border: solid; */
+  background-color: #5553B7;
+    opacity: 0.4;
+   
+
+    margin-top: 230px;
+    margin-right: 0px;
     padding: 0px;
-    width: 600px;
-    height: 210px;
+    width: 700px;
+    height: 140px;
   }
