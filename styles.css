@@ -4,7 +4,7 @@
 } */
 
 .heading{
-    margin-top: 200px;
+    margin-top: 30px;
     margin-left: 40px;
     
 }
@@ -22,7 +22,7 @@
 }
 .buttons{
     margin-left: 30px;
-    margin-top: 5px;
+  
     
 
 }
@@ -60,4 +60,17 @@
     width: 500px;
     background-color: #555;
     border-radius: 50%;
+  }
+
+
+  #line {
+    border-radius: 15px 500px 30px 5px;
+    display: grid;
+    border: #555 solid;
+  
+    
+    margin-top: 200px;
+    padding: 20px;
+    width: 600px;
+    height: 210px;
   }
