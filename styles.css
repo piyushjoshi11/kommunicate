@@ -66,11 +66,12 @@
   #line {
     border-radius: 15px 500px 30px 5px;
     display: grid;
-    border: #555 solid;
+    border:#2DD35C solid;
   
     
     margin-top: 200px;
-    padding: 20px;
+    margin-left: 0px;
+    padding: 0px;
     width: 600px;
     height: 210px;
   }
